@@ -18,7 +18,7 @@ export const Posts = () => {
     <div className="box">
       <div className='block'>
         <Link to="/">
-          <button className='button' onClick={() => {
+          <button className='button is-info' onClick={() => {
             dispatch(actions.selectedUser({}))
           }}>
             Return to the list
